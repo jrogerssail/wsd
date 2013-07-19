@@ -1,0 +1,286 @@
+body{
+	font:14px/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	width: 960px;
+	margin: 0px auto;
+	padding: 0 auto;
+	background: #8f8e8e;
+	background-image: url("../images/bg_image.jpg");
+	background-repeat: repeat-x;
+}
+
+.clearFix{
+	clear: both;
+}
+
+/* links */
+
+	a:link{
+	color: #c1d82f;
+	text-decoration:none;
+	}
+	a:visited{
+	color: #98b001;
+	} 
+	a:hover{
+	font:20px/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration:underline;
+	}
+	a:active{
+	color: #fa0404;
+	}
+	
+	ol{
+	list-style-type: circle;
+	color: #c1d82f;
+	}
+
+	ul{
+	list-style-type: none;
+	}
+
+/* logo */
+
+	.logo{
+	display: inline;
+	padding: 0px;
+	float: left;
+	}
+
+/* Navigation */
+	
+	nav{
+	color: #000000;
+	font:18px/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+	
+	#home{
+	display: block;
+	padding: 25px;
+	margin-left: 50px;
+	float: left;
+	}
+	
+	#about{
+	display: block;
+	padding: 25px;
+	margin-left: 15px;
+	float: left;
+	}
+	
+	#products{
+	display: block;
+	padding: 25px;
+	margin-left: 15px;
+	float: left;
+	}
+	
+	#faq{
+	display: block;
+	padding: 25px;
+	margin-left: 15px;
+	float: left;
+	}
+	
+	#contact{
+	display: block;
+	padding: 25px;
+	margin-left: 15px;
+	float: left;
+	}
+
+/* CTA */
+
+
+	.ctabox{
+	width: 960px;
+	height: 282px;
+	margin: 0 auto;
+	background-color: #000;
+	border: 3px solid #000;
+	border-radius: 10px;
+	clear: left;
+	}
+	
+	.ctaimage{
+	float: left;
+	}
+	
+	h1{
+	color: #c1d82f;
+	font:28px/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	margin: 0px;
+	padding: 20px 20px 0;
+	}
+
+	h2{
+	color: #fff;
+	font:22px/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	margin: 0px;
+	padding: 15px 20px 0;
+	}
+	
+	.button{
+	font:22px/1"Archivo Black", Arial, Helvetica, sans-serif;
+	width: 200px;
+	height: 32px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 40px 155px;
+	padding: 10px;
+	float: left;
+	}
+	
+	h3{
+	color: #fff;
+	font:18px/1"Archivo Black", sans-serif;
+	text-align: left;
+	text-shadow: 2px 2px 2px #000;
+	margin: 0px;
+	padding: 50px 20px;
+	}
+	
+	
+/* Side Bar */
+
+	h4{
+	color: #fff;
+	font:18px/1"Archivo Black", sans-serif;
+	text-align: left;
+	text-shadow: 2px 2px 2px #000;
+	margin: 0px;
+	padding: 15px 20px 0;
+	}
+	
+	aside{
+	font:16px/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	width: 225px;
+	height: 350px;
+	background-color: #000;
+	border-radius: 10px;
+	margin: 20px 0px 10px;
+	float: left;
+	}
+	
+/* Blurb */
+	
+	.blurb{
+	font:14px/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	width: 675px;
+	height: 310px;
+	color: #fff;
+	background-color: #000;
+	opacity: 0.7;
+	border-radius: 10px;
+	margin: 20px 0px 10px;
+	padding: 20px;
+	float: right;
+	}
+	
+	.col{
+	-moz-column-count:4; /* Firefox */
+	-webkit-column-count:4; /* Safari and Chrome */
+	column-count:4;
+	-moz-column-gap:40px; /* Firefox */
+	-webkit-column-gap:40px; /* Safari and Chrome */
+	column-gap:40px;
+	text-indent: 20px;
+	}
+	
+/* Gallery */
+
+	.gallery{
+	width: 960px;
+	}
+	
+	#base2{
+	border: 3px solid #000;
+	display: block;
+	margin: 10px 25px 25px;
+	width: 165px;
+	height: 165px;
+	float: left;
+	}
+	
+	#foot2{
+	border: 3px solid #000;
+	display: block;
+	margin: 10px 25px 25px;
+	width: 165px;
+	height: 165px;
+	float: left;
+	}
+	
+	#bask3{
+	border: 3px solid #000;
+	display: block;
+	margin: 10px 25px 25px;
+	width: 165px;
+	height: 165px;
+	float: left;
+	}
+	
+	#socc4{
+	border: 3px solid #000;
+	display: block;
+	margin: 10px 25px 25px;
+	width: 165px;
+	height: 165px;
+	float: left;
+	}
+	
+	
+/* Footer */
+
+	.footer{
+	font:12px/.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	width: 960px;
+	height: 28px;
+	background-color: black;
+	border: 2px dotted #c1d82f;
+	border-radius: 5px;
+	clear: both;
+	}
+	
+	#homef{
+	display: block;
+	text-align: center;
+	margin-left: 100px;
+	float: left;
+	}
+	
+	#aboutf{
+	display: block;
+	text-align: center;
+	margin-left: 100px;
+	float: left;
+	}
+	
+	#productsf{
+	display: block;
+	text-align: center;
+	margin-left: 100px;
+	float: left;
+	}
+	
+	#faqf{
+	display: block;
+	text-align: center;
+	margin-left: 100px;
+	float: left;
+	}
+	
+	#contactf{
+	display: block;
+	text-align: center;
+	margin-left: 100px;
+	float: left;
+	}
