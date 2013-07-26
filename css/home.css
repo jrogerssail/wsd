@@ -1,8 +1,8 @@
 body{
-	font:14px/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
-	width: 960px;
-	margin: 0px auto;
-	padding: 0 auto;
+	font:0.875em/1.5"Helvetica Neue", Arial, Helvetica, sans-serif; /* 14px font */
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
 	background: #8f8e8e;
 	background-image: url("../images/bg_image.jpg");
 	background-repeat: repeat-x;
@@ -22,7 +22,6 @@ body{
 	color: #98b001;
 	} 
 	a:hover{
-	font:20px/1"Helvetica Neue", Arial, Helvetica, sans-serif;
 	color: #fff;
 	text-decoration:underline;
 	}
@@ -38,12 +37,14 @@ body{
 	ul{
 	list-style-type: none;
 	}
+	
 
 /* logo */
 
 	.logo{
 	display: inline;
-	padding: 0px;
+	max-width: 100%;
+	padding: 0%;
 	float: left;
 	}
 
@@ -51,41 +52,46 @@ body{
 	
 	nav{
 	color: #000000;
-	font:18px/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+	font: 1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
 	}
 	
 	#home{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
 	display: block;
-	padding: 25px;
-	margin-left: 50px;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
 	float: left;
 	}
 	
 	#about{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
 	display: block;
-	padding: 25px;
-	margin-left: 15px;
+	padding: 2.7652%;
+	margin-left: 1.6949152%;
 	float: left;
 	}
 	
 	#products{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
 	display: block;
-	padding: 25px;
-	margin-left: 15px;
+	padding: 2.7652%;
+	margin-left: 1.6949152%;
 	float: left;
 	}
 	
 	#faq{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
 	display: block;
-	padding: 25px;
-	margin-left: 15px;
+	padding: 2.7652%;
+	margin-left: 1.6949152%;
 	float: left;
 	}
 	
 	#contact{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
 	display: block;
-	padding: 25px;
-	margin-left: 15px;
+	padding: 2.7652%;
+	margin-left: 1.6949152%;
 	float: left;
 	}
 
@@ -93,7 +99,7 @@ body{
 
 
 	.ctabox{
-	width: 960px;
+	width: 100%;
 	height: 282px;
 	margin: 0 auto;
 	background-color: #000;
@@ -103,12 +109,13 @@ body{
 	}
 	
 	.ctaimage{
+	max-width: 100%;
 	float: left;
 	}
 	
 	h1{
 	color: #c1d82f;
-	font:28px/1"Archivo Black", sans-serif;
+	font:1.75em/1"Archivo Black", sans-serif;
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;
 	margin: 0px;
@@ -117,7 +124,7 @@ body{
 
 	h2{
 	color: #fff;
-	font:22px/1"Archivo Black", sans-serif;
+	font:1.375em/1"Archivo Black", sans-serif;
 	text-align: center;
 	text-shadow: 1px 1px 1px #000;
 	margin: 0px;
@@ -125,25 +132,25 @@ body{
 	}
 	
 	.button{
-	font:22px/1"Archivo Black", Arial, Helvetica, sans-serif;
-	width: 200px;
-	height: 32px;
+	font:1.375em/1"Archivo Black", Arial, Helvetica, sans-serif;
+	width: 21.4689265%; /* 190px */
+	height: 24px;
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;
 	background-color: #fff;
 	border-radius: 5px;
-	margin: 40px 155px;
+	margin: 45px 15.5290697%;
 	padding: 10px;
 	float: left;
 	}
 	
 	h3{
 	color: #fff;
-	font:18px/1"Archivo Black", sans-serif;
-	text-align: left;
+	font:1.125em/1"Archivo Black", sans-serif;
+	text-align: center;
 	text-shadow: 2px 2px 2px #000;
-	margin: 0px;
-	padding: 50px 20px;
+	margin: 0;
+	padding: 40px 10px;
 	}
 	
 	
@@ -151,16 +158,16 @@ body{
 
 	h4{
 	color: #fff;
-	font:18px/1"Archivo Black", sans-serif;
+	font:1.125em/1"Archivo Black", sans-serif;
 	text-align: left;
 	text-shadow: 2px 2px 2px #000;
-	margin: 0px;
+	margin: 0;
 	padding: 15px 20px 0;
 	}
 	
 	aside{
 	font:16px/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
-	width: 225px;
+	width: 23.4375%;
 	height: 350px;
 	background-color: #000;
 	border-radius: 10px;
@@ -171,8 +178,8 @@ body{
 /* Blurb */
 	
 	.blurb{
-	font:14px/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
-	width: 675px;
+	font:1em/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	width: 70.3125%;
 	height: 310px;
 	color: #fff;
 	background-color: #000;
@@ -180,6 +187,7 @@ body{
 	border-radius: 10px;
 	margin: 20px 0px 10px;
 	padding: 20px;
+	overflow: scroll;
 	float: right;
 	}
 	
@@ -196,14 +204,14 @@ body{
 /* Gallery */
 
 	.gallery{
-	width: 960px;
+	width: 100%;
 	}
 	
 	#base2{
 	border: 3px solid #000;
 	display: block;
-	margin: 10px 25px 25px;
-	width: 165px;
+	margin: 10px 2.6041666% 25px;
+	width: 18%;
 	height: 165px;
 	float: left;
 	}
@@ -211,8 +219,8 @@ body{
 	#foot2{
 	border: 3px solid #000;
 	display: block;
-	margin: 10px 25px 25px;
-	width: 165px;
+	margin: 10px 2.6041666% 25px;
+	width: 18%;
 	height: 165px;
 	float: left;
 	}
@@ -220,8 +228,8 @@ body{
 	#bask3{
 	border: 3px solid #000;
 	display: block;
-	margin: 10px 25px 25px;
-	width: 165px;
+	margin: 10px 2.6041666% 25px;
+	width: 18%;
 	height: 165px;
 	float: left;
 	}
@@ -229,8 +237,8 @@ body{
 	#socc4{
 	border: 3px solid #000;
 	display: block;
-	margin: 10px 25px 25px;
-	width: 165px;
+	margin: 10px 2.6041666% 25px;
+	width: 18%;
 	height: 165px;
 	float: left;
 	}
@@ -239,10 +247,10 @@ body{
 /* Footer */
 
 	.footer{
-	font:12px/.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	font:0.875em/.5"Helvetica Neue", Arial, Helvetica, sans-serif;
 	color: #fff;
 	text-align: center;
-	width: 960px;
+	width: 100%;
 	height: 28px;
 	background-color: black;
 	border: 2px dotted #c1d82f;
@@ -284,3 +292,689 @@ body{
 	margin-left: 100px;
 	float: left;
 	}
+	
+/* MEDIA QUERIES...................................................................... */
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 959px){
+	
+	body{
+	min-width:768px;
+	max-width: 959px;
+	margin: 0 auto;
+	padding: 0;
+	background: #000;
+	background-image: url("../images/bg_image.jpg");
+	background-repeat: repeat-x;
+	}
+
+	.clearFix{
+	clear: both;
+	}
+	
+/* links */
+
+	a:link{
+	color: #c1d82f;
+	text-decoration:none;
+	}
+	a:visited{
+	color: #98b001;
+	} 
+	a:hover{
+	color: #fff;
+	text-decoration:underline;
+	}
+	a:active{
+	color: #fa0404;
+	}
+	
+	ol{
+	list-style-type: square;
+	color: #c1d82f;
+	}
+
+	ul{
+	list-style-type: none;
+	}
+	
+/* logo */
+
+	.logo{
+	display: inline;
+	max-width: 100%;
+	margin-left: 35.4166666%;
+	padding: 0%;
+	float: left;
+	}
+	
+/* Navigation */
+	
+	nav{
+	color: #000000;
+	font: 1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+	
+	#home{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	clear: left;
+	}
+	
+	#about{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	float: left;
+	}
+	
+	#products{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	float: left;
+	}
+	
+	#faq{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	float: left;
+	}
+	
+	#contact{
+	font:1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	float: left;
+	}
+	
+	h1{
+	color: #c1d82f;
+	font:1.625em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	margin: 0px;
+	padding: 2.7652% 3.7542% 0;
+	}
+
+	h2{
+	color: #fff;
+	font:1.25em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	margin: 0px;
+	padding: 2.7652% 3.7542% 0;
+	}
+	
+	.button{
+	font:1.375em/1"Archivo Black", Arial, Helvetica, sans-serif;
+	width: 21.4689265%; /* 190px */
+	height: 24px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 5.5290697% 10.5290697%;
+	padding: 1.7652%;
+	float: right;
+	}
+	
+	h3{
+	color: #fff;
+	font:1em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	margin: 0;
+	padding: 14.0645161% 10px;
+	}
+	
+/* Side Bar */
+
+	h4{
+	color: #000;
+	font:1.125em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #8f8e8e;
+	margin: 0;
+	padding: 2.7652% 0;
+	}
+	
+	aside{
+	width: 33.3333333%;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 2.7652% 0% 2.7652%;
+	}
+	
+/* Blurb */
+	
+	.blurb{
+	font:0.875em/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	width: 60.0625%;
+	height: 310px;
+	color: #fff;
+	background-color: #000;
+	opacity: 0.7;
+	border-radius: 10px;
+	margin: 2.7652% 0px 2.5304%;
+	padding: 2.7652%;
+	overflow: scroll;
+	float: right;
+	}
+	
+	.col{
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	-moz-column-gap:8.2135523%; /* Firefox */
+	-webkit-column-gap:8.2135523%; /* Safari and Chrome */
+	column-gap:8.2135523%;
+	text-indent: 5.5673%;
+	}
+	
+/* Gallery */
+
+	.gallery{
+	display: none;
+	}
+	
+/* Footer */
+
+	.footer{
+	font:1em/.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 28px;
+	background-color: black;
+	border: 2px dotted #c1d82f;
+	border-radius: 5px;
+	clear: both;
+	}
+	
+	#homef{
+	display: block;
+	text-align: center;
+	margin-left: 10.2192066%;
+	float: left;
+	}
+	
+	#aboutf{
+	display: block;
+	text-align: center;
+	margin-left: 10.2192066%;
+	float: left;
+	}
+	
+	#productsf{
+	display: block;
+	text-align: center;
+	margin-left: 10.2192066%;
+	float: left;
+	}
+	
+	#faqf{
+	display: block;
+	text-align: center;
+	margin-left: 10.2192066%;
+	float: left;
+	}
+	
+	#contactf{
+	display: block;
+	text-align: center;
+	margin-left: 10.2192066%;
+	float: left;
+	}
+	
+	}
+	
+/* Mobile Landscape size to Tablet Portrait (devices and browsers).................. */
+	@media only screen and (min-width: 480px)and(max-width: 767px){
+	body{
+	min-width:480px;
+	max-width: 767px;
+	margin: 0 auto;
+	padding: 0;
+	background: #000;
+	background-image: url("../images/bg_image.jpg");
+	background-repeat: repeat-x;
+	}
+
+	.clearFix{
+	clear: both;
+	}
+	
+/* links */
+
+	a:link{
+	color: #c1d82f;
+	text-decoration:none;
+	}
+	a:visited{
+	color: #98b001;
+	} 
+	a:hover{
+	color: #fff;
+	text-decoration:underline;
+	}
+	a:active{
+	color: #fa0404;
+	}
+	
+	ol{
+	list-style-type: square;
+	color: #c1d82f;
+	}
+
+	ul{
+	list-style-type: none;
+	}
+	
+/* logo */
+
+	.logo{
+	display: inline;
+	max-width: 56.6666666%;
+	margin-left: 35.4166666%;
+	padding: 0%;
+	clear: left;
+	}
+	
+/* Navigation */
+	
+	nav{
+	color: #000000;
+	font: 1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+	
+	#home{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	clear: left;
+	}
+	
+	#about{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	float: left;
+	}
+	
+	#products{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	float: left;
+	}
+	
+	#faq{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	float: left;
+	}
+	
+	#contact{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 5.6497175%;
+	float: left;
+	}
+	
+	h1{
+	color: #c1d82f;
+	font:1.625em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	margin: 0px;
+	padding: 2.7652% 3.7542% 0;
+	}
+
+	h2{
+	color: #fff;
+	font:1.25em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	margin: 0px;
+	padding: 2.7652% 3.7542% 0;
+	}
+	
+	.button{
+	font:1.375em/1"Archivo Black", Arial, Helvetica, sans-serif;
+	width: 21.4689265%; /* 190px */
+	height: 24px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 5.5290697% 10.5290697%;
+	padding: 1.7652%;
+	float: right;
+	}
+	
+	h3{
+	color: #fff;
+	font:1em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	margin: 0;
+	padding: 14.0645161% 10px;
+	}
+	
+/* Side Bar */
+
+	h4{
+	color: #000;
+	font:1em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #8f8e8e;
+	margin: 0;
+	padding: 2.7652% 0;
+	}
+	
+	aside{
+	width: 33.3333333%;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 2.7652% 0% 2.7652%;
+	}
+	
+/* Blurb */
+	
+	.blurb{
+	font:0.875em/1.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	width: 60.0625%;
+	height: 310px;
+	color: #fff;
+	background-color: #000;
+	opacity: 0.7;
+	border-radius: 10px;
+	margin: 2.7652% 0px 2.5304%;
+	padding: 2.7652%;
+	overflow: scroll;
+	float: right;
+	}
+	
+	.col{
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	-moz-column-gap:8.2135523%; /* Firefox */
+	-webkit-column-gap:8.2135523%; /* Safari and Chrome */
+	column-gap:8.2135523%;
+	text-indent: 5.5673%;
+	}
+	
+/* Gallery */
+
+	.gallery{
+	display: none;
+	}
+	
+	.base2{
+	display: none;
+	}
+	
+/* Footer */
+
+	.footer{
+	font:0.875em/.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 28px;
+	background-color: black;
+	border: 2px dotted #c1d82f;
+	border-radius: 5px;
+	clear: both;
+	}
+	
+	#homef{
+	display: block;
+	text-align: center;
+	margin-left: 4.2192066%;
+	float: left;
+	}
+	
+	#aboutf{
+	display: block;
+	text-align: center;
+	margin-left: 4.2192066%;
+	float: left;
+	}
+	
+	#productsf{
+	display: block;
+	text-align: center;
+	margin-left: 4.2192066%;
+	float: left;
+	}
+	
+	#faqf{
+	display: block;
+	text-align: center;
+	margin-left: 4.2192066%;
+	float: left;
+	}
+	
+	#contactf{
+	display: block;
+	text-align: center;
+	margin-left: 4.2192066%;
+	float: left;
+	}
+	}
+	
+/* Media Queries 479............................................... */
+
+	/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+	@media only screen and (max-width: 479px){
+	
+	body{
+	font:0.75em/1.5"Helvetica Neue", Arial, Helvetica, sans-serif; /* 12px font */
+	max-width: 479px;
+	margin: 0 auto;
+	padding: 0 auto;
+	background: #000;
+	background-image: url("../images/bg_image.jpg");
+	background-repeat: repeat-x;
+	}
+
+	.clearFix{
+	clear: both;
+	}
+	
+/* links */
+
+	a:link{
+	color: #c1d82f;
+	text-decoration:none;
+	}
+	a:visited{
+	color: #98b001;
+	} 
+	a:hover{
+	color: #fff;
+	text-decoration:underline;
+	}
+	a:active{
+	color: #fa0404;
+	}
+	
+	ol{
+	list-style-type: square;
+	color: #c1d82f;
+	}
+
+	ul{
+	list-style-type: none;
+	}
+	
+/* logo */
+
+	.logo{
+	display: inline;
+	max-width: 100%;
+	margin-left: 15.7652%;
+	padding: 0%;
+	float: left;
+	}
+	
+/* Navigation */
+	
+	nav{
+	color: #000000;
+	font: 1.125em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+	
+	#home{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.7652%;
+	margin-left: 0.6949152%;
+	clear: left;
+	}
+	
+	#about{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.5%;
+	margin-left: 0.6949152%;
+	float: left;
+	}
+	
+	#products{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.5%;
+	margin-left: 0.6949152%;
+	float: left;
+	}
+	
+	#faq{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.5%;
+	margin-left: 0.6949152%;
+	float: left;
+	}
+	
+	#contact{
+	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif; /* 18px font */
+	display: block;
+	padding: 2.5%;
+	margin-left: 0.6949152%;
+	float: left;
+	}
+	
+/* Button */
+	
+	.button{
+	font:1.25em/1"Archivo Black", Arial, Helvetica, sans-serif;
+	width: 21.4689265%; /* 190px */
+	height: 24px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 10px 32.5290697%;
+	float: left;
+	}
+	
+	
+/* Side Bar */
+
+	h4{
+	color: #000;
+	font:1.125em/1"Archivo Black", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #8f8e8e;
+	margin: 0;
+	padding: 15px 20px 0;
+	}
+	
+	aside{
+	width: 100%;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 10px 0px 10px;
+	}
+	
+	.blurb{
+	display: none;
+	}
+	
+/* Gallery */
+
+	.gallery{
+	display: none;
+	}
+	
+/* Footer */
+
+	.footer{
+	font:0.875em/.5"Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 28px;
+	background-color: black;
+	border: 2px dotted #c1d82f;
+	border-radius: 5px;
+	clear: both;
+	}
+	
+	#homef{
+	display: block;
+	text-align: center;
+	margin-left: 5.2192066%;
+	float: left;
+	}
+	
+	#aboutf{
+	display: block;
+	text-align: center;
+	margin-left: 5.2192066%;
+	float: left;
+	}
+	
+	#productsf{
+	display: block;
+	text-align: center;
+	margin-left: 5.2192066%;
+	float: left;
+	}
+	
+	#faqf{
+	display: block;
+	text-align: center;
+	margin-left: 5.2192066%;
+	float: left;
+	}
+	
+	#contactf{
+	display: block;
+	text-align: center;
+	margin-left: 5.2192066%;
+	float: left;
+	}
+	}
+	
